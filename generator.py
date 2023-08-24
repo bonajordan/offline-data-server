@@ -5,7 +5,7 @@ import pickledb
 #'employees_info','sport_car_prices','weather','supermarket_sales','books','quotes'--------------> default keys in pickledb database
 
 dict_of_locales = {"France":"fr_FR","Italy":"it_IT","Azerbaijan":"az_AZ","Bangladesh":"bn_BD","Czech":"cs_CZ",
-                     "Denmark":"da_DK","de_AT":"Austria",
+                     "Denmark":"da_DK","Austria":"de_AT",
                      "Greece":"el_GR","India":["ta_IN","hi_IN","en_IN"],"Iran":"fa_IR",
                      "Finland":"fi_FI","Israel":"he_IL","Hungary":"hu_HU","Armenia":"hy_AM",
                      "Indonesia":["id_ID"],"Japan":"ja_JP","Georgia":"ka_GE",
