@@ -8,7 +8,7 @@ dict_of_locales = {"France":"fr_FR","Italy":"it_IT","Azerbaijan":"az_AZ","Bangla
                      "Denmark":"da_DK","de_AT":"Austria",
                      "Greece":"el_GR","India":["ta_IN","hi_IN","en_IN"],"Iran":"fa_IR",
                      "Finland":"fi_FI","Israel":"he_IL","Hungary":"hu_HU","Armenia":"hy_AM",
-                     "Indonesia":["id_ID"],"Japan":"ja_JP","Georgia":"ka_GE","South-Korea":"ko_KR",
+                     "Indonesia":["id_ID"],"Japan":"ja_JP","Georgia":"ka_GE",
                      "Nepal":"ne_NP","Belgium":"nl_BE","China":"zh_CN",
                      "Russia":"ru_RU","Ukraine":"uk_UK","Romania":"ro_RO","Sweden":"sv_SE",
                      "Brazil":"pt_BR","Netherlands":"nl_NL","Slovakia":"sk_SK",
