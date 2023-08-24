@@ -16,43 +16,37 @@ Initiate the pickledb database by running 'python pickledb_init.py' to create an
 You can add your own datasets by copying the csv file to the "./DB/csv/" folder, running pickledb_init.py, creating your own url endpoint for the new dataset in the flask_app.py file and creating it's corresponding generator in the generator.py file.
 
 
-Valid default urls are;
-	http://localhost:5000/profile
-	http://localhost:5000/profile/<num>
-	http://localhost:5000/profile-<country>
-	http://localhost:5000/profile-<country>/<num>
-	http://localhost:5000/weather
-	http://localhost:5000/weather/<num>
-	http://localhost:5000/sport_car_price
-	http://localhost:5000/sport_car_price/<num>
-	http://localhost:5000/employee_info
-	http://localhost:5000/employee_info/<num>
-	http://localhost:5000/supermarket_sales
-	http://localhost:5000/supermarket_sales/<num>
-	http://localhost:5000/book_info
-	http://localhost:5000/book_info/<num>
-	http://localhost:5000/quote
-	http://localhost:5000/quote/<num>
+Valid default urls are:
+http://localhost:5000/profile
+http://localhost:5000/profile/<num>
+http://localhost:5000/profile-<country>
+http://localhost:5000/profile-<country>/<num>
+http://localhost:5000/weather
+http://localhost:5000/weather/<num>
+http://localhost:5000/sport_car_price
+http://localhost:5000/sport_car_price/<num>
+http://localhost:5000/employee_info
+http://localhost:5000/employee_info/<num>
+http://localhost:5000/supermarket_sales
+http://localhost:5000/supermarket_sales/<num>
+http://localhost:5000/book_info
+http://localhost:5000/book_info/<num>
+http://localhost:5000/quote
+http://localhost:5000/quote/<num>
 		
-	Where;
-		<num> is a number and 
-		<country> is any country in the list :
-			['France', 'Italy', 'Azerbaijan', 'Bangladesh', 'Czech', 'Denmark',
-			'Austria', 'Greece', 'India', 'Iran', 'Finland', 'Israel', 'Hungary', 'Armenia',
-			'Indonesia', 'Japan', 'Georgia', 'South-Korea', 'Nepal', 'Belgium', 'China', 'Russia',
-			'Ukraine', 'Romania', 'Sweden', 'Brazil', 'Netherlands', 'Slovakia', 'Norway']
+<num> is a number and 
+<country> is any country in the list :
+['France', 'Italy', 'Azerbaijan', 'Bangladesh', 'Czech', 'Denmark','Austria', 'Greece', 'India', 'Iran', 'Finland', 'Israel', 'Hungary', 'Armenia','Indonesia', 'Japan', 'Georgia', 'South-Korea', 'Nepal', 'Belgium', 'China', 'Russia','Ukraine', 'Romania', 'Sweden', 'Brazil', 'Netherlands', 'Slovakia', 'Norway']
 	
-		The <num> variable returns a json containing that number of corresponding data. 
-			Example; "http://localhost:5000/quote/3" returns a json containing 3 quotes and their individual info.
+The <num> variable returns a json containing that number of corresponding data. 
+	Example; "http://localhost:5000/quote/3" returns a json containing 3 quotes and their individual info.
 			
-		The <country> variable returns a json with a profile specific to a particular country.
-			Example; "http://localhost:5000/profile-Japan" returns a json of a fake profile similar to that of a Japanese.
-			Example; "http://localhost:5000/profile-Japan/3" returns a json containing 3 fake Japanese profiles.
-			N/B: 
-				It is not first letter case sensitive so "Japan" and "japan" are valid. However, take note of the fact that profiles with locales like Japan will return certain special characters for "name", "address" etc. So be aware of encodings and how to handle them. Using the print function of python on the characters shows them exactly how they are to be displayed.
-	
+The <country> variable returns a json with a profile specific to a particular country.
+	Example; "http://localhost:5000/profile-Japan" returns a json of a fake profile similar to that of a Japanese.
+	Example; "http://localhost:5000/profile-Japan/3" returns a json containing 3 fake Japanese profiles.
+	N/B: It is not first letter case sensitive so "Japan" and "japan" are valid. However, take note of the fact that profiles with locales like Japan will return certain special characters for "name", "address" etc. So be aware of encodings and how to handle them. Using the print function of python on the characters shows them exactly how they are to be displayed.
+
 
 You can reach out to me if you have any issues
 
 HAPPY CODING!!!
-	
